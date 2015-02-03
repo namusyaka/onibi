@@ -46,6 +46,10 @@ regexp.match?("namusya") #=> false
   </tbody>
 </table>
 
+## Reference
+
+* [正規表現エンジンを作ろう](http://codezine.jp/article/corner/237)
+
 ## Contributing
 
 1. Fork it ( https://github.com/namusyaka/onibi/fork )

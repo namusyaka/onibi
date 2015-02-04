@@ -38,13 +38,6 @@ RSpec.describe Onibi::AST::Converter do
       end
     end
 
-    describe ?. do
-      context "with default" do
-        let(:expr) { ".*" }
-        it { should eq("(#{described_class.single_chars * ?|})*") }
-      end
-    end
-
     describe ?[ do
       context "with default" do
         let(:expr) { "[012]+?" }
